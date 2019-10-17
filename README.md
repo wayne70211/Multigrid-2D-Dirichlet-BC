@@ -32,6 +32,7 @@ The coarsest grid should be solved to exact solution<br>
 The program provides two solvers
 1. **Gauss-Seidel** with residual L2-norm less than tolerance
 2. **LU decomposition**
+3. **CG Solver**
 
 ``` fortran
 tol = 1.0d-6
