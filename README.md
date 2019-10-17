@@ -44,7 +44,6 @@ exact_solver = 1
 Set arbitrary level. The coarsest grid should greater than 3
 
 ``` fortran
-Level_num = 6
 if (Level_Nx(Level_num).le.3) then
     write(*,*) Level_num," level is high for ",Nx," grid "
     stop
